@@ -5,7 +5,9 @@
     <router-link to="/children">Children</router-link> |
     <router-link to="/teleport-test">Teleport</router-link> |
     <router-link to="/composition-test">Composition</router-link> |
-    <router-link to="/props-emit-test">PropsEmit</router-link>
+    <router-link to="/props-emit-test">PropsEmit</router-link> |
+    <router-link to="/composition-function">CompositionFunction</router-link> |
+    <router-link to="/router-test">Router</router-link>
   </nav>
   <router-view
     :setupBooks="setupBooks"
